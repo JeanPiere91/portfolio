@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-function Navigation({ name, to }) {
+function Navigation( { name, url}) {
     return (
-        <Link to={to} className="text-white text-xl font-mono">
+        <Link className="text-white text-xl font-mono" to={url}>
             {name}
         </Link>
     );
