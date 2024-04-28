@@ -1,6 +1,9 @@
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+//Importing Tailwind CSS
+import './index.css'
+
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
 import Error from './pages/Error';
