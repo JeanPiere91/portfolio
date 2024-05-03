@@ -1,6 +1,11 @@
+import {Label, Form } from '../components/UI';
+
 function Contact() {
     return (
-        <h1>Contact</h1>
+        <div className="w-[90%] mx-auto">
+            <Label name="Contact"/>
+            <Form />
+        </div>
     );
 }
 
