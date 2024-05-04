@@ -1,7 +1,15 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Navigation() {
     const currentPage = useLocation().pathname;
+    let navigate = useNavigate();
+    
+    useEffect(() => {
+        if (currentPage === '/'){
+           return navigate("/about");
+        }
+     },[]);
     
     return (
         <ul className="w-9/12 flex items-center justify-around font-bold">
