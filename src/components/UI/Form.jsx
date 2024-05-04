@@ -28,7 +28,7 @@ function Form() {
         if( name === '' || email ==='' || message === '')
         {
             if(target.name === 'text' && name === ''){
-                setErrorMessage('Name is invalid !');
+                setErrorMessage('Name is required !');
             }
             else if(target.name === 'email' && (email ==='' || !validateEmail(email))) {
                 setErrorMessage('Email is required !');
