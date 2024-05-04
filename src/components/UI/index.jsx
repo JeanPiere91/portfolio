@@ -7,6 +7,8 @@ import InputForm from './InputForm';
 import TextArea from './TextArea';
 import Button from './Button';
 import LabelForm from './LabelForm'
+import UnorderedList from './UnorderedList'
+import H2 from './H2'
 
 export {
     Label,
@@ -17,5 +19,7 @@ export {
     InputForm,
     TextArea,
     Button,
-    LabelForm
+    LabelForm,
+    UnorderedList,
+    H2
 }
